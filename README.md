@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/dowrow/SpaiEcp2DiegoCastano.svg?branch=master)](https://travis-ci.org/dowrow/SpaiEcp2DiegoCastano)
+
 # `SPAI`
 
 ## Ejercicio colaborativos entre alumnos: ECP2
