@@ -2,15 +2,15 @@ language: java
 
 jdk:
   - oraclejdk8
-  
+
 branches:
   only:
     - master
     - develop
-    
+
 notifications:
   email:
     recipients:
-      - diego.castano@alumnos.upm.es
-      
+      - diego.castano.chillaron@alumnos.upm.es
+
 script: mvn verify
