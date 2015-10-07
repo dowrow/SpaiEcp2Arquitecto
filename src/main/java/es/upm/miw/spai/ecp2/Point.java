@@ -42,6 +42,12 @@ public class Point {
 		this.y += b.getY();
 		return this;
 	}
+	
+	public Point sub(Point b) {
+		this.x -= b.getX();
+		this.y -= b.getY();
+		return this;
+	}
 
     @Override
     public String toString() {
