@@ -41,4 +41,9 @@ public class UserTest {
 	public void testGetuppercaseName(){
 	    assertEquals("FOO", user.getUppercaseName());
 	}
+	
+	@Test
+	public void testIsAdult(){
+	    assertEquals(true, user.isAdult());
+	}
 }
