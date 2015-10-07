@@ -67,4 +67,7 @@ public class Fraction {
 			return false;
 	}
 
+	public Fraction multiply(Fraction f){
+	    return new Fraction(this.getNumerator() * f.getNumerator(), this.getDenominator() * f.getDenominator());
+	}
 }
