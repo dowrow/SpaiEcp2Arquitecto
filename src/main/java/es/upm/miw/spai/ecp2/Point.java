@@ -36,6 +36,12 @@ public class Point {
         this.x -= origin.getX();
         this.y -= origin.getY();
     }
+    
+	public Point sum(Point b) {
+		this.x += b.getX();
+		this.y += b.getY();
+		return this;
+	}
 
     @Override
     public String toString() {
