@@ -34,4 +34,11 @@ public class FractionTest {
 		fraction2 = new Fraction(1, 3);
 		assertEquals(true, fraction.isBiggerThan(fraction2));
 	}
+	
+	public void testMultiply(){
+	    fraction2 = new Fraction(3, 2);
+	    fraction2 = fraction.multiply(fraction2);
+	    assertEquals(3, fraction2.getNumerator());
+	    assertEquals(4, fraction2.getDenominator());
+	}
 }
