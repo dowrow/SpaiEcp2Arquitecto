@@ -35,6 +35,7 @@ public class FractionTest {
 		assertEquals(true, fraction.isBiggerThan(fraction2));
 	}
 	
+	@Test
 	public void testMultiply(){
 	    fraction2 = new Fraction(3, 2);
 	    fraction2 = fraction.multiply(fraction2);
