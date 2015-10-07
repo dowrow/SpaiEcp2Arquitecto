@@ -41,4 +41,8 @@ public class User {
     public String getUppercaseName(){
         return this.getName().toUpperCase();
     }
+    
+    public boolean isAdult(){
+        return (this.getNumber() >= 18);
+    }
 }
