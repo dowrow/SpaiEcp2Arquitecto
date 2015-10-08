@@ -39,4 +39,11 @@ public class DecimalCollectionTest {
 		decimalCollection.add(2.0);
 		assertEquals(decimalCollection.higher(), 2, 10e-5);
 	}
+	
+	@Test
+	public void testLowest(){
+	    decimalCollection.add(2.0);
+	    decimalCollection.add(3.0);
+	    assertEquals(2.0, decimalCollection.lowest(), 10e-5);
+	}
 }
