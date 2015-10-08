@@ -46,4 +46,11 @@ public class DecimalCollectionTest {
 	    decimalCollection.add(3.0);
 	    assertEquals(2.0, decimalCollection.lowest(), 10e-5);
 	}
+	
+	@Test
+	public void testAverage(){
+	    decimalCollection.add(2.0);
+	    decimalCollection.add(3.0);
+	    assertEquals(2.5, decimalCollection.average(),10e-5);
+	}
 }

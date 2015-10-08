@@ -44,5 +44,9 @@ public class DecimalCollection {
         }
         return lower;
     }
-
+    
+    public double average(){
+        return this.sum() / this.size();
+    }
+    
 }
