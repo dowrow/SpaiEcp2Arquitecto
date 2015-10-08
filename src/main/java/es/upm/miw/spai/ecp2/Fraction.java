@@ -70,4 +70,8 @@ public class Fraction {
 	public Fraction multiply(Fraction f){
 	    return new Fraction(this.getNumerator() * f.getNumerator(), this.getDenominator() * f.getDenominator());
 	}
+	
+	public Fraction inverse(){
+	    return new Fraction(this.getDenominator(),this.getNumerator());
+	}
 }

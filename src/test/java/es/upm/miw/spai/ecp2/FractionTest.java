@@ -42,4 +42,11 @@ public class FractionTest {
 	    assertEquals(3, fraction2.getNumerator());
 	    assertEquals(4, fraction2.getDenominator());
 	}
+	
+	@Test
+	public void testInverse(){
+	    fraction = fraction.inverse();
+	    assertEquals(2, this.fraction.getNumerator());
+	    assertEquals(1, fraction.getDenominator());
+	}
 }
