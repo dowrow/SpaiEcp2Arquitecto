@@ -38,15 +38,11 @@ public class Point {
     }
     
 	public Point sum(Point b) {
-		this.x += b.getX();
-		this.y += b.getY();
-		return this;
+		return new Point(this.x + b.getX(), this.y + b.getY());
 	}
 	
 	public Point sub(Point b) {
-		this.x -= b.getX();
-		this.y -= b.getY();
-		return this;
+		return new Point(this.x - b.getX(), this.y - b.getY());
 	}
 
     @Override

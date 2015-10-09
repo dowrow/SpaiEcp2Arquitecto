@@ -48,14 +48,12 @@ public class PointTest {
 	public void testSum() {
 		pt2 = new Point(3, 9);
 		assertEquals(5, pt.sum(pt2).getX());
-		assertEquals(12, this.pt.getY());
 	}
 	
 	@Test
 	public void testSub() {
 		pt2 = new Point(3, 9);
 		assertEquals(-1, pt.sub(pt2).getX());
-		assertEquals(-6, this.pt.getY());
 	}
 
 	@Test
